@@ -21,7 +21,7 @@ const requestOptions = {
    redirect: "follow"
 };
 
-fetch("https://Weather-API.proxy-production.allthingsdev.co/weather/citySearch?search_term=London", requestOptions)
+fetch("https://Weather-API.proxy-production.allthingsdev.co/weather/citySearch?search_term=india", requestOptions)
    .then((response) => response.text())
    .then((result) => console.log(result))
    .catch((error) => console.error(error));
